@@ -4,7 +4,9 @@
   "author": "halo",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build ."
+    "build": "vuepress build .",
+    "deploy": "node ./deploy/index.js",
+    "auto": "vuepress build docs && node ./deploy/index.js"
   },
   "devDependencies": {
     "@vuepress/plugin-medium-zoom": "^1.9.10",
@@ -17,5 +19,9 @@
     "vuepress": "1.9.7",
     "vuepress-theme-reco": "1.6.17"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "archiver": "^4.0.1",
+    "node-ssh": "^10.0.1"
+  }
 }

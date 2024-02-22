@@ -1,15 +1,14 @@
 module.exports = {
-  "plugins": ['@vuepress/medium-zoom'],//图片放大
-  //  {
-  //   '@vuepress/medium-zoom': {
-  //     selector: 'img.zoom-custom-imgs',
-  //     // medium-zoom options here
-  //     // See: https://github.com/francoischalifour/medium-zoom#options
-  //     options: {
-  //       margin: 16
-  //     }
-  //   }
-  // },
+  "plugins": [
+    ['@vuepress/medium-zoom', {
+        selector: ".page img",
+        options: {
+            margin: 16,
+            background: "#616161",
+            scrollOffset: 0
+        }
+    }]
+  ],//图片放大
   "title": "良月无序",//网站标题
   "description": "",//网站描述
   "dest": "public",//打包输出目录
