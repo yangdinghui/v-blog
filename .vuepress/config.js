@@ -93,7 +93,7 @@ module.exports = {
     "search": true,//搜索
     "searchMaxSuggestions": 10,//搜索结果数量
     "lastUpdated": "Last Updated",//"最后更新时间"
-    "author": "halo",//首页右侧头像下方的文字
+    "author": "",//首页右侧头像下方的文字
     "authorAvatar": "/avatar.png",//首页右侧头像
     "record": "xxxx111111",//备案号
     "startYear": "2023",//开始年份
