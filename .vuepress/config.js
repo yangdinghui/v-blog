@@ -1,12 +1,12 @@
 module.exports = {
   "plugins": [
     ['@vuepress/medium-zoom', {
-        selector: ".page img",
-        options: {
-            margin: 16,
-            background: "#616161",
-            scrollOffset: 0
-        }
+      selector: ".page img",
+      options: {
+        margin: 16,
+        background: "#616161",
+        scrollOffset: 0
+      }
     }]
   ],//图片放大
   "title": "良月无序",//网站标题
@@ -37,11 +37,7 @@ module.exports = {
       {
         "text": "关于", "icon": "reco-message",
         "items": [
-          {
-            "text": "GitHub",
-            "link": "https://github.com/yangdinghui",
-            "icon": "reco-github"
-          }
+          { "text": "GitHub", "link": "https://github.com/yangdinghui", "icon": "reco-github" }
         ]
       }
     ],
@@ -65,11 +61,11 @@ module.exports = {
     "type": "blog",
     "blogConfig": {
       "category": {
-        "location": 2,
+        "location": 4,
         "text": "分类"
       },
       "tag": {
-        "location": 3,
+        "location": 5,
         "text": "标签"
       }
     },
@@ -92,7 +88,7 @@ module.exports = {
     "search": true,//搜索
     "searchMaxSuggestions": 10,//搜索结果数量
     "lastUpdated": "Last Updated",//"最后更新时间"
-    "author": "",//首页右侧头像下方的文字
+    "author": "halo",//首页右侧头像下方的文字
     "authorAvatar": "/avatar.png",//首页右侧头像
     "record": "xxxx111111",//备案号
     "startYear": "2023",//开始年份

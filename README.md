@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 良月无序のBlog
-tagline: A simple and beautiful vuepress blog theme.
+tagline: A simple and beautiful vuepress blog theme
 #cover: https://pan.zealsay.com/mweb/blog/WechatIMG11.png
 # heroImage: /bg.png
 # heroText: null
