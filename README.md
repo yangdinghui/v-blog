@@ -1,5 +1,7 @@
 ---
 home: true
+# 首页导航栏设置 false-不显示，默认显示
+navbar: true
 heroText: 良月无序のBlog
 tagline: A simple and beautiful vuepress blog theme
 #cover: https://pan.zealsay.com/mweb/blog/WechatIMG11.png
