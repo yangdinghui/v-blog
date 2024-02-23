@@ -1,7 +1,12 @@
 module.exports = {
+  "locales": {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   "plugins": [
     ['@vuepress/medium-zoom', {
-      selector: ".page img",
+      // selector: ".page img",
       options: {
         margin: 16,
         background: "#616161",
@@ -38,7 +43,9 @@ module.exports = {
       {
         "text": "关于", "icon": "reco-message",
         "items": [
-          { "text": "GitHub", "link": "https://github.com/yangdinghui", "icon": "reco-github" }
+          { "text": "GitHub", "link": "https://github.com/yangdinghui", "icon": "reco-github" },
+          { "text": "bilibili", "link": "https://space.bilibili.com/21283231", "icon": "reco-bilibili" },
+          { "text": "weibo", "link": "https://weibo.com/u/2284904283", "icon": "reco-weibo" },
         ]
       }
     ],
@@ -74,21 +81,20 @@ module.exports = {
         "text": "标签"
       }
     },
-    // 友链
-    // "friendLink": [
-    //   {
-    //     "title": "午后南杂",
-    //     "desc": "Enjoy when you can, and endure when you must.",
-    //     "email": "1156743527@qq.com",
-    //     "link": "https://www.recoluan.com"
-    //   },
-    //   {
-    //     "title": "vuepress-theme-reco",
-    //     "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-    //     "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-    //     "link": "https://vuepress-theme-reco.recoluan.com"
-    //   }
-    // ],
+    "friendLink": [
+      {
+        "title": "GPT聊天",
+        "desc": "Enjoy when you can, and endure when you must.",
+        "email": "1004329447@qq.com",
+        "link": "http://chat.nikankan.top"
+      },
+      {
+        "title": "vuepress-theme-reco",
+        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
+        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        "link": "https://vuepress-theme-reco.recoluan.com"
+      }
+    ],
     "logo": "/logo.png",//导航栏左侧logo
     "search": true,//搜索
     "searchMaxSuggestions": 10,//搜索结果数量
