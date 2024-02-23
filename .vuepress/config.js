@@ -31,7 +31,8 @@ module.exports = {
         "text": "文档", "icon": "reco-message",
         "items": [
           { "text": "面试", "link": "/docs/interview/" },
-          { "text": "刷题", "link": "/docs/algorithm/" }
+          { "text": "刷题", "link": "/docs/algorithm/" },
+          { "text": "随想", "link": "/docs/idea/" },
         ]
       },
       {
@@ -56,6 +57,10 @@ module.exports = {
         "统计「优美子数组」",
         "找到字符串中所有字母异位词",
         "最大子数组和"
+      ],
+      "/docs/idea/": [
+        "",
+        "长相思云一涡"
       ]
     },
     "type": "blog",
