@@ -37,9 +37,9 @@ module.exports = {
       {
         "text": "文档", "icon": "reco-message",
         "items": [
-          { "text": "面试", "link": "/docs/interview/" },
-          { "text": "刷题", "link": "/docs/algorithm/" },
-          { "text": "随想", "link": "/docs/idea/" },
+          { "text": "面试问题", "link": "/docs/interview/" },
+          { "text": "刷题记录", "link": "/docs/algorithm/" },
+          { "text": "随想笔迹", "link": "/docs/idea/" },
         ]
       },
       {
@@ -104,7 +104,8 @@ module.exports = {
     "lastUpdated": "Last Updated",//"最后更新时间"
     "author": "halo",//首页右侧头像下方的文字
     "authorAvatar": "/avatar.png",//首页右侧头像
-    "record": "xxxx111111",//备案号
+    "record": "豫ICP备2021030666号",//备案号
+    "cyberSecurityLink": 'https://beian.miit.gov.cn/',//备案号链接
     "startYear": "2023",//开始年份
   },
   "markdown": {

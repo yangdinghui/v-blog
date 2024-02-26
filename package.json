@@ -25,5 +25,6 @@
   "dependencies": {
     "archiver": "^4.0.1",
     "node-ssh": "^10.0.1"
-  }
+  },
+  "license": "SEE LICENSE IN LICENSE.txt"
 }
