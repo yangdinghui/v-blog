@@ -1,3 +1,5 @@
+const buildSidebarConfig = require('./buildSidebarConfig.js');
+const sidebars = buildSidebarConfig('./docs');
 module.exports = {
   "locales": {
     '/': {
@@ -49,28 +51,29 @@ module.exports = {
         ]
       }
     ],
-    "sidebar": {
-      "/docs/interview/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
-      ],
-      "/docs/algorithm/": [
-        "",
-        "和为K的子数组",
-        "滑动窗口最大值",
-        "接雨水",
-        "统计「优美子数组」",
-        "找到字符串中所有字母异位词",
-        "最大子数组和"
-      ],
-      "/docs/idea/": [
-        "",
-        "长相思云一涡"
-      ]
-    },
-    "type": "blog",
+    "sidebar": sidebars,
+    // {
+    //   "/docs/interview/": [
+    //     "",
+    //     "theme",
+    //     "plugin",
+    //     "api"
+    //   ],
+    //   "/docs/algorithm/": [
+    //     "",
+    //     "和为K的子数组",
+    //     "滑动窗口最大值",
+    //     "接雨水",
+    //     "统计「优美子数组」",
+    //     "找到字符串中所有字母异位词",
+    //     "最大子数组和"
+    //   ],
+    //   "/docs/idea/": [
+    //     "",
+    //     "长相思云一涡"
+    //   ]
+    // },
+    'type': "blog",
     "blogConfig": {
       "category": {
         "location": 4,
