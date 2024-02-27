@@ -47,7 +47,7 @@ module.exports = {
         "items": [
           { "text": "面试问题", "link": "/docs/interview/" },
           { "text": "刷题记录", "link": "/docs/algorithm/" },
-          { "text": "随想笔迹", "link": "/docs/idea/" },
+          { "text": "生活笔迹", "link": "/docs/idea/" },
         ]
       },
       {
