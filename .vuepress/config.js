@@ -20,6 +20,14 @@ module.exports = {
   "description": "",//网站描述
   "dest": "public",//打包输出目录
   "head": [
+    ['script', {}, `
+    var _hmt = _hmt || [];
+     (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?07959de8c6b3024b34096b9dc88e9396";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+      })();`],
     ["link", { "rel": "icon", "href": "/icon/icons-cat.gif" }],//网页图标
     ["meta", { "name": "viewport", "content": "width=device-width,initial-scale=1,user-scalable=no" }],//移动端适配
     ["meta", { "name": "keywords", "content": "vuepress,reco,vuepress-reco,halo" }]//关键字
