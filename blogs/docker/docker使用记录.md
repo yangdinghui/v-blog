@@ -6,6 +6,9 @@ tags:
 categories:
  -  docker
 ---
+## 镜像（Image）：Docker 镜像可以被视为一个轻量级、可执行的独立软件包，它包含运行应用程序所需要的所有内容：代码、运行时环境、库、环境变量和配置文件。镜像是不可变的，也就是说，一旦创建，其内容不能被改变。
+
+## 容器（Container）：如果说镜像是软件的“编译版本”，那么容器就是这个镜像的一个运行实例。可以通过镜像创建一个或多个容器。每个容器都是一个隔离的运行环境，它有自己的文件系统、网络接口和进程空间，但可以（按需）和其他容器或宿主机共享资源。
 ```bash
 #docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 docker run 
@@ -98,5 +101,15 @@ docker run -d -p 4000:3002 \
 #安装redis，外部使用端口63799访问，并设置密码
 docker run --name some-redis -d -p 63799:6379 -e REDIS_PASSWORD=xxxxxx redis
 
+#停止运行中的容器
+docker stop 55c1c9c80b7c
+#删除停止运行的镜像
+docker rm c7374698cc -f
+#运行新版本镜像 aaamoon/copilot-gpt4-service:latest 
+docker run -d \
+  --name copilot-gpt4-service \
+  --restart always \
+  -p 8080:8080 \
+  aaamoon/copilot-gpt4-service:latest   
 ```
 
