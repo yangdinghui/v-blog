@@ -112,8 +112,11 @@ module.exports = {
     "lastUpdated": "Last Updated",//"最后更新时间"
     "author": "halo",//首页右侧头像下方的文字
     "authorAvatar": "/avatar.png",//首页右侧头像
-    "record": "豫ICP备2021030666号",//备案号
-    "cyberSecurityLink": 'https://beian.miit.gov.cn/',//备案号链接
+     // 备案
+     record: '豫ICP备2021030666号',
+     recordLink: 'https://beian.miit.gov.cn',
+    //  cyberSecurityRecord: '公安部备案文案',
+    //  cyberSecurityLink: '公安部备案指向链接',
     "startYear": "2023",//开始年份
   },
   "markdown": {
