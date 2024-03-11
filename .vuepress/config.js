@@ -34,6 +34,9 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    googleAnalytics: {
+      ga: 'G-5G46Z9CXGN'
+    },
     //404 腾讯公益
     "noFoundPageByTencent": false, //是否开启腾讯公益404页面
     // "type": 'blog',
@@ -97,7 +100,7 @@ module.exports = {
         "title": "GPT聊天",
         "desc": "Enjoy when you can, and endure when you must.",
         "email": "1004329447@qq.com",
-        "link": "http://chat.nikankan.top"
+        "link": "http://chat.rebotgpt.top"
       },
       {
         "title": "vuepress-theme-reco",
