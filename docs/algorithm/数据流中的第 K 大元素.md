@@ -28,9 +28,6 @@ kthLargest.add(10);  // return 5<br/>
 kthLargest.add(9);   // return 8<br/>
 kthLargest.add(4);   // return 8<br/>
  
-
-
-
 ```java
 class Solution {
     //使用优先队列：
